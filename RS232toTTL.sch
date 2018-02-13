@@ -229,7 +229,7 @@ F 1 "CONN_01X04" V 7800 3200 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm" H 7700 3200 50  0001 C CNN
 F 3 "" H 7700 3200 50  0000 C CNN
 	1    7700 3200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L VCC #PWR07
@@ -410,4 +410,6 @@ Wire Wire Line
 	2875 3025 3800 3025
 Wire Wire Line
 	3800 3025 3800 2525
+Text Notes 5525 4000 0    60   ~ 0
+or BSS138
 $EndSCHEMATC
